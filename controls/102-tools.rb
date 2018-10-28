@@ -13,7 +13,7 @@ control 'tools-01' do
       it { should be_directory }
     end
     describe command("/opt/jdk#{version}/bin/java -version") do
-      its('stderr') { should match (/#{version}/) }
+      its('stderr') { should match (/java version \"#{version}\"/) }
     end
   end
 end
