@@ -1,0 +1,11 @@
+# java versions
+java_versions:
+  - 1.6.0_45
+  - 1.7.0_79
+  - 1.8.0_162
+
+# ant versions
+ant_versions:
+  - 1.9.7
+# jenkins specific data
+jenkins_version: 2.89.4-1.1
